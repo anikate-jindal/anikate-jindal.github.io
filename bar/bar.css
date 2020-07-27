@@ -213,6 +213,7 @@
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
     }
@@ -223,17 +224,36 @@
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
 }
 
-@media (max-width: 720px){
-.section.started .started-content .logo{
-    clip-path: none;
+
+h1.h-title {
+    margin-top: 50px;
 }
-    h1.h-title {
-        margin-top: 50px;
-    }
+
+.subtitle {
+    margin-top: 0;
+    top: auto;
+    bottom: 50px;
+    left: 20%;
+    line-height: .9;
+    font-size: 6vw;
+    text-align: left;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+strong {
+    color: #4bffa5;
+}
+
+.h-subtitles {
+    height: 38pxp;
 }
